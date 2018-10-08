@@ -1,0 +1,32 @@
+#!/bin/python3
+# -*- coding: utf-8 -*-
+
+# game munber 
+Munber = 94
+
+# game bout
+Bout = 3
+
+# input name
+Name = input("pleases input youe name: ")
+
+# print 
+print( "Hello " + Name + " let's play game ")
+
+G_ame = input("pleases input Y/N (Y enter the game N quit)")
+
+if G_ame == "Y":
+    Guess = int(input("pleases input a munber(90-100): "))
+    while Bout:
+        if Guess == Munber:
+            print("Oh! bin go ")
+        else:
+# 注意Bout类型为int不能与str相加 
+            print("Oh! sorry  is wrong, 还有",Bout,"次")
+            Guess = int(input("again: "))
+        Bout -= 1
+else:
+    print("OK")
+
+print("Bye Bye")
+

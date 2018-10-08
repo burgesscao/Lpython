@@ -1,0 +1,8 @@
+#!/bin/python3
+#
+
+
+Nubmers = int(input("pleases input a number: "))
+while Nubmers:
+    print((Nubmers - 1) * " " + (Nubmers*"*"))
+    Nubmers -= 1

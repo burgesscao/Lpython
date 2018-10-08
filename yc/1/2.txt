@@ -1,0 +1,24 @@
+#!/bin/python3
+# -*- coding: utf-8 -*-
+
+# game munber 
+Munber = 94
+
+# input name
+Name = input("pleases input youe name: ")
+
+# print 
+print( "Hello " + Name + " let's play game ")
+
+G_ame = input("pleases input Y/N (Y enter the game N quit)")
+
+if G_ame == "Y":
+    Guess = int(input("pleases input a munber(90-100): "))
+    if Guess == Munber:
+        print("Oh! bin go ")
+    else:
+        print("Oh! sorry  is wrong")
+else:
+    print("OK")
+
+print("Bye Bye")

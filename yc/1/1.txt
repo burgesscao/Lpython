@@ -1,0 +1,22 @@
+#!/bin/python3
+# -*- coding: utf-8 -*-
+
+# 365 days a year
+Y_year = 365
+
+# 24 hour a day
+H_hour = 24
+
+# 60 minute a 1 hour 
+M_minute = 60
+
+# 60 second a 1 minute
+S_second = 60
+
+# 定义变量OneYear
+OneYear = Y_year * H_hour * M_minute * S_second
+
+# 一年多少秒
+print ( Y_year * H_hour * M_minute * S_second )
+print ( OneYear )
+
